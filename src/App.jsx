@@ -5,7 +5,7 @@ function App() {
     const [count, setCount] = useState(0)
 
     return ( 
-    <div>
+    <div className='background-opacity'>
         <div className='main-container'>
             <div className='square'>
             </div>
