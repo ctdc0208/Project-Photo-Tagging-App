@@ -8,4 +8,34 @@ html {
     overflow: hidden;
 }
 
-.main-container {}
+.main-container {
+    width: max(75%, 800px);
+    height: max(100vh);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    background-color: black;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.square {
+    background-image: url(/Images/1.jpg);
+    background-size: cover;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    height: 1000px;
+    width: 1000px;
+    margin: 20px;
+}
+
+.navbar {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-color: beige;
+    height: 100%;
+    width: 100%;
+}

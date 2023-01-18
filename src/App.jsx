@@ -5,8 +5,14 @@ function App() {
     const [count, setCount] = useState(0)
 
     return ( 
-    <div >
-        what 
+    <div>
+        <div className='main-container'>
+            <div className='square'>
+            </div>
+            <div className='navbar'>
+                Navbar
+            </div>
+        </div>
     </div>
     )
 }
