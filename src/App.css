@@ -1,0 +1,11 @@
+html {
+    background: url(/Images/background_image.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.5;
+    overflow: hidden;
+}
+
+.main-container {}
