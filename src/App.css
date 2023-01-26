@@ -46,7 +46,7 @@ html {
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-rows: 1fr 0.5fr 4fr;
+    grid-template-rows: 1fr 0.5fr 4fr 1fr;
     grid-template-columns: 1fr;
 }
 
@@ -67,6 +67,15 @@ html {
     align-items: center;
 }
 
+.find-main-container {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
 .find-title {
     font-size: 2rem;
     grid-column: 1 / 2;
@@ -76,8 +85,68 @@ html {
 }
 
 .find-container {
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+
+.find-logo {
+    height: 85px;
+    width: 85px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 25px;
+}
+
+.angry-bird {
+    background: url(/Images/Angry\ Bird\ -\ Red.png) no-repeat center;
+    background-size: 75px;
+}
+
+.superman {
+    background: url(/Images/Superman.png) no-repeat center;
+    background-size: 75px;
+}
+
+.mario {
+    background: url(/Images/Mario.png) no-repeat center;
+    background-size: 70px;
+}
+
+.meeseeks {
+    background: url(/Images/Mr\ Meeseeks.png) no-repeat center;
+    background-size: 35px;
+}
+
+.time {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    font-size: 2rem;
+    display: grid;
+    align-items: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.time-digits {
+    margin-left: 25px;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+    margin: auto;
+    border: 0;
+    background-color: transparent;
+}
+
+.reset:hover {
+    cursor: pointer;
+}
+
+.reset:active {
+    fill: #b6b6b6;
 }
