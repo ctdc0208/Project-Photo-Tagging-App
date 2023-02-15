@@ -37,7 +37,7 @@ html {
 }
 
 .square:hover {
-    cursor: crosshair;
+    cursor: pointer;
 }
 
 .navbar {
@@ -76,12 +76,32 @@ html {
     align-items: center;
 }
 
+.find-title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .find-title {
     font-size: 2rem;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     display: flex;
     align-items: center;
+}
+
+.find-done-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    align-items: center;
+}
+
+.green-box {
+    background-color: green;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
 }
 
 .find-container {
@@ -117,6 +137,10 @@ html {
 .meeseeks {
     background: url(/Images/Mr\ Meeseeks.png) no-repeat center;
     background-size: 35px;
+}
+
+.bg-green {
+    background-color: green;
 }
 
 .time {

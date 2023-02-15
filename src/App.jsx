@@ -1,6 +1,5 @@
 import './App.css'
 
-
 function App() {   
   return ( 
     <div className='background-opacity'>
@@ -11,11 +10,17 @@ function App() {
                 <div className='title margin-left-20px'>
                     Photo Tagging App
                 </div>
-                    <div className='find-title margin-left-20px'>
-                        Find:
+                    <div className='find-title-container'>
+                        <div className='find-title margin-left-20px'>
+                            Find:
+                        </div>
+                        <div className='find-done-container'>
+                            <div className='green-box'></div>
+                            <div>Done</div>
+                        </div>
                     </div>
                     <div className='find-main-container'> 
-                        <div className='find-container margin-left-20px'>
+                        <div className='find-container margin-left-20px bg-green'>
                             <div className='find-logo angry-bird'></div>
                             <div>Red J. Bird</div>
                         </div>
